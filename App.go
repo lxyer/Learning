@@ -34,7 +34,6 @@ func main() {
 	for key := range testMap {
 		fmt.Print(testMap[key])
 	}
-
 }
 
 //定义结构体
