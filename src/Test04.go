@@ -6,6 +6,9 @@ type person struct {
 	name string
 	age  int
 }
+type Point struct {
+	x, y int
+}
 
 //结构体
 func main() {
@@ -19,4 +22,11 @@ func main() {
 	strList[1] = "world"
 	intList := [3]int{1, 2, 3}
 	fmt.Println(intList)
+	var s []int = intList[0:2]
+	fmt.Println(s)
+	var m = map[string]Point{
+		"a": {2, 3},
+		"b": {4, 5},
+	}
+	fmt.Println(m)
 }
