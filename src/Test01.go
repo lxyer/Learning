@@ -6,11 +6,14 @@ import "fmt"
 var i, j = 1, 2
 var good, boy, age = true, false, 18
 
+//定义常量
+const world = "世界"
+
 func main() {
 	a, b := Swap("a", "b")
 	fmt.Print(split(6))
 	println(a, b)
-
+	println("hello" + world)
 }
 
 //函数
