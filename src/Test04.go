@@ -28,5 +28,7 @@ func main() {
 		"a": {2, 3},
 		"b": {4, 5},
 	}
+	delete(m, "a")
+
 	fmt.Println(m)
 }
